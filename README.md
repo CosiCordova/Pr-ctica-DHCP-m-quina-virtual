@@ -19,7 +19,7 @@
       option domain-name-servers 8.8.8.8, 8.8.4.4;
     }
     ```
-    Guardé y cerré el editor.
+
 
 3. **Editar `/etc/default/isc-dhcp-server` para configurar la interfaz de red:**
     ```bash
@@ -29,7 +29,7 @@
     ```plaintext
     INTERFACESv4="enp0s8"
     ```
-    Guardé y cerré el editor.
+
 
 4. **Arrancar el servicio y comprobar el estado:**
     ```bash
